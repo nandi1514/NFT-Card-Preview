@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.card{
+    padding: 20px;
+}
+
+.main-img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.main-img:hover {
+    cursor: pointer;
+    background: cyan;
+}
+
+h2{
+    color: white;
+    padding-bottom: 15px;
+}
+
+h2:hover {
+    cursor: pointer;
+    color: cyan;
+}
+
+.card-top {
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+.card-mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    font-weight: 300;
+}
+
+.left{
+    color: cyan;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.left img {
+    padding-right: 5px;
+}
+
+.right {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.right img {
+    padding-right: 5px;
+}
+
+hr{
+    border: 0.5px solid hsl(215, 51%, 70%);
+    border-top: 0;
+    width: 100%;
+}
+
+.card-footer {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card-footer img {
+    max-width: 40px;
+    padding-right: 10px;
+}
+
+.card-footer p{
+    color: hsl(215, 51%, 70%); 
+}
+
+.card-footer p span {
+    color: white;
+}
+
+.card-footer p span:hover {
+    cursor: pointer;
+    color: cyan;
+}
